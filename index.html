@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+    display: flex;
+    justify-content: center !important;
+    border: 2px solid black;
+}
+#id-img {
+    display: flex;
+    justify-content: center;
+}
+#id-img img {
+    width: 120px;
+    align-items: center;
+}
+#one {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+
+    margin: 0 auto;
+} 
+.input-size {
+    height: 35px;
+    width: 90%;
+    border-radius: 30px;
+}
+#All-Code {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  max-width: 950px;
+  align-items: center;
+}
+input, label {
+    display:block;
+}
+.block {
+    display: block;
+}
+#Sima {
+  display: inline-block;
+  
+}
+#LastName {
+  display:inline-block;
+}
+#two {
+    width: 360px;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    justify-content: center;
+}
+.SignUp {
+    display: flex;
+    justify-content: center;
+}
+#SU {
+    background-color: #BD00FF;
+    color: white;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight:400;
+    border-color: #BD00FF;
+}
+#EN {
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+#Lang {
+    padding-left: 10px;
+    border-radius: 15px;
+    text-align: center; 
+    font-weight: bold;
+}
+    </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div id="All-Code">
+        <div id="EN">
+        <button id="Lang"><i id="triangle" class="fa fa-caret-down"></i><i class="fa fa-globe"></i>  EN</button>
+        </div>
+            <br>
+        <div id="id-img">
+        <img  src="https://eco-tech.cloud/wp-content/uploads/2024/06/openway-logo-purple.png">
+        </div> 
+            <br>
+        <div id="one">
+        <form name="register" method="post">
+        <section>
+        <div id="Sima" class="block">
+        <label for="name">Enter Name</label>
+        <input class="input-size" type="text" name = "name">
+        </div>
+        <div id="LastName" class="block">
+        <label for="lname">Enter Last Name</label>
+        <input class="input-size" type="text" name = "lname">
+        </div>
+        </div>
+        <br>
+        <div id="two">
+        <label for="Ename">Enter Email</label>
+        <input class="input-size" type="email" name="Ename">
+        <br>
+        <label for="Nname"> Enter Phone Number</label>
+        <input class="input-size" type="Number" name="Nname">
+        <br>
+        <label for="Pname">Enter Password</label>
+        <input class="input-size" type="Password" name="Pname" >
+        </div>
+        <br>
+        <br>
+        <div class="SignUp">
+            <button id="SU">Sign Up</button>
+        </div>
+        </div>
+        
+          <script>
+            const signButton = document.getElementById("SU");
+signButton.onclick = function() {
+    document.body.innerHTML= "hi";
+
+}
+          </script>
+</body>
+</html>
